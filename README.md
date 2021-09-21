@@ -1,4 +1,5 @@
 # Creates a S3 bucket into AWS
+> NOTE: This script requires Terraform v1.0.7
 1. To let terraform know which credentials use to connect to AWS run:
     ```
     export AWS_SHARED_CREDENTIALS_FILE=${HOME}/.aws/credentials
